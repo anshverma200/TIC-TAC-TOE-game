@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    background-color: #e4e464;
+    font-size: 50px;
+    color: red;
+}
+.game{
+    height: 305px;
+    width: 315px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 100px;
+}
+body{
+    background-color: rgb(76, 76, 229);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+    display: none;
+}
